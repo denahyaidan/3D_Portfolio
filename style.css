@@ -85,3 +85,23 @@ canvas {
   .left {
     grid-column: 6 / 12;
   }
+
+  .github-logo {
+    position: fixed;
+    bottom: 20px; /* Adjust this value to position the element vertically */
+    right: 20px; /* Adjust this value to position the element horizontally */
+    z-index: 9999; /* Ensures the logo appears above other elements */
+    /* height: 1px; */
+
+  }
+
+  .github-image {
+    height: 10vh;
+    width: auto;
+    transition: filter 0.3s; /* Adds smooth transition to the filter property */
+  }
+
+  .github-image:hover{
+    filter: brightness(500%); /* Adjust the brightness value as desired */
+  }
+  
